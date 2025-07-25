@@ -12,4 +12,4 @@ data:
     codebook: codebook_df.Rmd
 checksums:
   df.csv: df293e7fb771372207428f5ece3c8c7e
-  synthetic_df.csv: 8910d885f218e673b06a5e63b44db257
+  synthetic_df.csv: 7597607ced365b82eb32f315bb194249
