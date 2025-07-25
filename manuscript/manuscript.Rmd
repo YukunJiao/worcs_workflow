@@ -74,7 +74,6 @@ sdt <- dagitty::dagitty(paste(readLines("../theory/sdt.txt"), collapse = "\n"))
 sdt
 tidySEM::graph_sem(sdt)
 
-
 ```
 
 ```{r}
