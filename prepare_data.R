@@ -4,3 +4,6 @@
 # to store the data.
 
 library(worcs)
+
+df <- read.csv("~/Documents/assoc_data_simplified.csv")
+closed_data(df)

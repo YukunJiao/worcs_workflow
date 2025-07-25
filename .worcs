@@ -4,3 +4,9 @@ entry_point: manuscript/manuscript.Rmd
 recipe:
   recipe: targets::tar_make()
   terminal: no
+data:
+  df.csv:
+    save_expression: write.csv(x = data, file = filename, row.names = FALSE)
+    load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+checksums:
+  df.csv: 36f7995e57c04cb2cbaff88af1c66491

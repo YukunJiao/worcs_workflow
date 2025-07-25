@@ -73,6 +73,9 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 sdt <- dagitty::dagitty(paste(readLines("../theory/sdt.txt"), collapse = "\n"))
 sdt
 tidySEM::graph_sem(sdt)
+
+set.seed(1)
+theorytools::simulate_data(sdt, n = 5) |> write.csv("df.csv")
 ```
 
 ```{r}
