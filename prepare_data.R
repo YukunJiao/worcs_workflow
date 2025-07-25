@@ -6,5 +6,5 @@
 library(worcs)
 
 df <- read.csv("~/Documents/df.csv")
-open_data(df)
+
 closed_data(df)
