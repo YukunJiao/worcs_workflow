@@ -1,9 +1,15 @@
 ---
 title: "Untitled"
-output: github_document
+output: papaja::apa6_docx
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 bibliography: references.bib
 knit: worcs::cite_all
+author:
+  - name: "Yukun Jiao"
+    affiliation: "Linköping University"
+    email: "yukun@example.com"
+    address: "Campus Valla, 581 83 Linköping, Sweden"
+    corresponding: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +35,7 @@ tar_load(study_results)
 
 This manuscript uses the Workflow for Open Reproducible Code in Science [@vanlissaWORCSWorkflowOpen2021] to ensure reproducibility and transparency. All code <!--and data--> are available at <worcs_workflow>.
 
-This is an example of a non-essential citation [@@vanlissaWORCSWorkflowOpen2021]. If you change the rendering function to `worcs::cite_essential`, it will be removed.
+This is an example of a non-essential citation [@vanlissaWORCSWorkflowOpen2021]. If you change the rendering function to `worcs::cite_essential`, it will be removed.
 
 <!--The function below inserts a notification if the manuscript is knit using synthetic data. Make sure to insert it after load_data().-->
 `r notify_synthetic()`
@@ -80,3 +86,4 @@ tidySEM::graph_sem(sdt)
 
 ```
 
+test
