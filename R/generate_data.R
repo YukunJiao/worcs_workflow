@@ -15,3 +15,4 @@ generate_data <- function(beta, n){
   )
   return(df)
 }
+
