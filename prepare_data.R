@@ -5,5 +5,5 @@
 
 library(worcs)
 
-df <- read.csv("~/Documents/assoc_data_simplified.csv")
+df <- read.csv("~/Documents/df.csv")
 closed_data(df)

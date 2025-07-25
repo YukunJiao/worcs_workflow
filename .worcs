@@ -8,5 +8,8 @@ data:
   df.csv:
     save_expression: write.csv(x = data, file = filename, row.names = FALSE)
     load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+    synthetic: synthetic_df.csv
+    codebook: codebook_df.Rmd
 checksums:
-  df.csv: 36f7995e57c04cb2cbaff88af1c66491
+  df.csv: df293e7fb771372207428f5ece3c8c7e
+  synthetic_df.csv: 8910d885f218e673b06a5e63b44db257
