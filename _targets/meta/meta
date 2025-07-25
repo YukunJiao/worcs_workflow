@@ -1,0 +1,8 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|1a935a4805bbb65b
+analyze_data|function|15e2c8596aa2d767
+generate_data|function|fe09a288878411d7
+perform_study|function|789de0d4323478e6
+manuscript|stem|e7da26c2792c1d95|c53d994f482540d6|2c530c1562a7fbd1|-1793997187|manuscript/manuscript.md*manuscript/manuscript.Rmd*manuscript/manuscript_files|t20290.8074720743s|s26699b|26699|file|local|vector|||2.151||
+study_design|stem|2ec532e417ff81de|7d57ba7785759a15|2c530c1562a7fbd1|664097228||t20290.8074750058s|s239b|239|rds|local|vector|||0||
+study_results|stem|4048da8f1aedf31a|75c2e47ceb9fe2e2|f6fb937f624de466|-1679770525||t20290.8074833305s|s221b|221|rds|local|vector|||0.693||
