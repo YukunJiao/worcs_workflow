@@ -7,6 +7,7 @@
 <!-- badges: end -->
 
 <!-- Please add a brief introduction to explain what the project is about    -->
+This project is a WORCS (Workflow for Open Reproducible Code in Science) demo, created for the purpose of learning the WORCS workflow.
 
 ## Where do I start?
 
