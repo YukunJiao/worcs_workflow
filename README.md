@@ -9,6 +9,10 @@
 <!-- Please add a brief introduction to explain what the project is about    -->
 This project is a WORCS (Workflow for Open Reproducible Code in Science) demo, created for the purpose of learning the WORCS workflow.
 
+The tutorial is available at https://cjvanlissa.github.io/theorytools/articles/computational_social_science.html#setting-up-a-reproducible-project-with-worcs
+
+The corresponding article is available at https://journals.sagepub.com/doi/10.3233/DS-210031, which outlines the complete workflow.
+
 ## Where do I start?
 
 You can load this project in RStudio by opening the file called 'worcs_workflow_demo.Rproj'.
