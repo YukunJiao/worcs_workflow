@@ -86,7 +86,3 @@ tidySEM::graph_sem(sdt)
 
 ```
 
-
-reset test
-
-test
