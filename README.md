@@ -11,7 +11,7 @@ This project is a WORCS (Workflow for Open Reproducible Code in Science) demo, c
 
 The tutorial is available at https://cjvanlissa.github.io/theorytools/articles/computational_social_science.html#setting-up-a-reproducible-project-with-worcs
 
-The corresponding article is available at https://journals.sagepub.com/doi/10.3233/DS-210031, which outlines the complete workflow.
+The corresponding paper is available at https://journals.sagepub.com/doi/10.3233/DS-210031, which outlines the complete workflow.
 
 ## Where do I start?
 
